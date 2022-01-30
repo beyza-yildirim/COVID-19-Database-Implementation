@@ -39,6 +39,9 @@ healthInsuranceNo,	(vaccineName,	batchNo,	vialNo),	licenseNo)<br/>
 ### ER Diagram:
 ![image](https://github.com/beyza-yildirim/COVID-19-Database-Implementation/blob/main/ER_Diagram.jpg)
 
+### Database Creation:
+For this project, IBM DB2 was used. The database tables can be [created](createtbl.sql), [dropped](droptable.sql) and [populated](loaddata.sql) with the given SQL files.
+
 ### JDBC Program:
 [JDBC Program](VaccineApp.java)
 
